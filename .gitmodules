@@ -1,0 +1,3 @@
+[submodule "themes/open-uchile-theme"]
+	path = themes/open-uchile-theme
+	url = https://github.com/open-uchile/open-uchile-theme
