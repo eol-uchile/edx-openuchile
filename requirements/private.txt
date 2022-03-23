@@ -1,5 +1,5 @@
 -e git+https://github.com/open-uchile/eol_contact_form@42f36c6c2324d4a61fa4d442fbbc3c2b46b4b124#egg=eol_contact_form
--e git+https://github.com/open-uchile/edx-proctoring@dbe81ef0677351b0639e87e468f0ed9662f265c2#egg=edx-proctoring
+-e git+https://github.com/open-uchile/edx-proctoring@09cb2ef4ddef5d5998c8720a05f57258217223ea#egg=edx-proctoring
 -e git+https://github.com/open-uchile/pdfXBlock@471addf3b6f52d75f21ea3851bc081f8723b6e58#egg=pdfXBlock
 
 
