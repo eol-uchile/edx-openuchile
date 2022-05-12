@@ -1,7 +1,7 @@
 -e git+https://github.com/open-uchile/eol_contact_form@42f36c6c2324d4a61fa4d442fbbc3c2b46b4b124#egg=eol_contact_form
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/open-uchile/pdfXBlock@471addf3b6f52d75f21ea3851bc081f8723b6e58#egg=pdfXBlock
--e git+https://github.com/open-uchile/portal_api@c2b06849476b1b0b6b7e85c33addf136acfe7a76#egg=portal_api
+-e git+https://github.com/open-uchile/portal_api@c0bc86387dbc605af03a91ae1b3bf6bf2c7c8ce5#egg=portal_api
 
 
 fluent-logger==0.9.6
