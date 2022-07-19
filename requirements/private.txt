@@ -4,7 +4,6 @@
 -e git+https://github.com/open-uchile/portal_api@6a37c0d1883c25330fda7e793eaa2f5308998c22#egg=portal_api
 -e git+https://github.com/open-uchile/eol_vimeo@b20f26a97700439f7743ba8b36672c17e9ef5d93#egg=eol_vimeo
 
-
 fluent-logger==0.9.6
 python-json-logger==0.1.11
 django-redis==4.12.1
