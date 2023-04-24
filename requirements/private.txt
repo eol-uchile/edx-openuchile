@@ -5,6 +5,7 @@
 -e git+https://github.com/open-uchile/eol_vimeo@b20f26a97700439f7743ba8b36672c17e9ef5d93#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/corfo_generate_code@5ac3d75aeea1334e7f3d9773528c5695a575ed2b#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
+-e git+https://github.com/eol-uchile/uchileedxlogin@dcd9131ec2bb8d0fbe30f51251ef44a5f8a14af9#egg=uchileedxlogin
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
