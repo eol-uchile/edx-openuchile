@@ -5,12 +5,12 @@
 -e git+https://github.com/open-uchile/eol_vimeo@b20f26a97700439f7743ba8b36672c17e9ef5d93#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/corfo_generate_code@a6b171148ba7278c05c664f0eb41f52743634bd2#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
--e git+https://github.com/eol-uchile/uchileedxlogin@dcd9131ec2bb8d0fbe30f51251ef44a5f8a14af9#egg=uchileedxlogin
+-e git+https://github.com/open-uchile/uchileedxlogin@509db9ad8c4f7421e720f5f2c8b993eabcc68d2c#egg=uchileedxlogin
 -e git+https://github.com/eol-uchile/eol_completion@30303bc4c2195789093e4b634e8ebe5fa639981a#egg=eol_completion
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion
 -e git+https://github.com/eol-uchile/eol_welcome_mail@6c5195dbcbdcb9bfc8e619fd221ac5b806194287#egg=eol_welcome_mail
--e git+https://github.com/eol-uchile/eol_forum_notifications@9d70f5b03376c1bd16e2cc8a79bac77a19d0d350#egg=eol_forum_notifications
+-e git+https://github.com/open-uchile/eol_forum_notifications@0a1c58b7fd94784f196458de4749b533d5e0acf4#egg=eol_forum_notifications
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
