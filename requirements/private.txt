@@ -2,7 +2,7 @@
 -e git+https://github.com/open-uchile/edx-proctoring@3815d8852fc7059848444fbe401a5c08f89a9aac#egg=edx-proctoring
 -e git+https://github.com/open-uchile/pdfXBlock@471addf3b6f52d75f21ea3851bc081f8723b6e58#egg=pdfXBlock
 -e git+https://github.com/open-uchile/portal_api@47b0913b55096a34691a8b6df9e7b3e430d6292a#egg=portal_api
--e git+https://github.com/open-uchile/eol_vimeo@b20f26a97700439f7743ba8b36672c17e9ef5d93#egg=eol_vimeo
+-e git+https://github.com/open-uchile/eol_vimeo@3a2ba6628cbc96976b9f44c1ff37a75b6dcaf8dc#egg=eol_vimeo
 -e git+https://github.com/eol-uchile/corfo_generate_code@a6b171148ba7278c05c664f0eb41f52743634bd2#egg=corfo_generate_code
 -e git+https://github.com/eol-uchile/eol-course-program-xblock@df549273a21c6b4674c6645940d7f33c4c8a2aea#egg=eolcourseprogram-xblock
 -e git+https://github.com/open-uchile/uchileedxlogin@509db9ad8c4f7421e720f5f2c8b993eabcc68d2c#egg=uchileedxlogin
