@@ -12,6 +12,7 @@
 -e git+https://github.com/eol-uchile/eol_welcome_mail@6c5195dbcbdcb9bfc8e619fd221ac5b806194287#egg=eol_welcome_mail
 -e git+https://github.com/open-uchile/eol_forum_notifications@0a1c58b7fd94784f196458de4749b533d5e0acf4#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/edx-ora2.git@e873498bd2671b830f19a2441ec1608b7d4bbbc4#egg=ora2
+-e git+https://github.com/eol-uchile/edx-search@799a6503fc1c8b9ff05821ea88a7bca6f5efdfd3#egg=edx-search
 
 fluent-logger==0.9.6
 python-json-logger==0.1.11
