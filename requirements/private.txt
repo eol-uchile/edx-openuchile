@@ -9,7 +9,7 @@
 -e git+https://github.com/eol-uchile/eol_completion@30303bc4c2195789093e4b634e8ebe5fa639981a#egg=eol_completion
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion
--e git+https://github.com/eol-uchile/eol_welcome_mail@6c5195dbcbdcb9bfc8e619fd221ac5b806194287#egg=eol_welcome_mail
+-e git+https://github.com/eol-uchile/eol_welcome_mail@d45ed6908eac47bc615c5206572ecdea4d86adc5#egg=eol_welcome_mail
 -e git+https://github.com/eol-uchile/eol_forum_notifications@6d4ced6cd7b667e6048bf199a22f2c82b801e120#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/edx-ora2.git@e873498bd2671b830f19a2441ec1608b7d4bbbc4#egg=ora2
 -e git+https://github.com/eol-uchile/edx-search@e8ab08b29a90b727aa732fd8dc8377b6326defad#egg=edx-search
