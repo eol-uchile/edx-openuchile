@@ -12,7 +12,7 @@
 -e git+https://github.com/eol-uchile/eol_welcome_mail@d45ed6908eac47bc615c5206572ecdea4d86adc5#egg=eol_welcome_mail
 -e git+https://github.com/eol-uchile/eol_forum_notifications@6d4ced6cd7b667e6048bf199a22f2c82b801e120#egg=eol_forum_notifications
 -e git+https://github.com/eol-uchile/edx-ora2.git@e873498bd2671b830f19a2441ec1608b7d4bbbc4#egg=ora2
--e git+https://github.com/eol-uchile/edx-search@e8ab08b29a90b727aa732fd8dc8377b6326defad#egg=edx-search
+-e git+https://github.com/eol-uchile/edx-search@7612bd5843dfd2f3b6b0305abb58506fb7826559#egg=edx-search
 -e git+https://github.com/eol-uchile/eol-container-xblock.git@747b14c92559540ff47a44891f7da1393c2fffab#egg=eolcontainer-xblock
 -e git+https://github.com/eol-uchile/course_classification@80bb2f094a889540cb872e6a05152953fd212d33#egg=course_classification
 
