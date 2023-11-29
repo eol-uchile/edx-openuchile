@@ -2,7 +2,7 @@
 -e git+https://github.com/eol-uchile/course_classification@bfcb4cf52d9fb2c7b1572d21b44266d26456d4b8#egg=course_classification
 -e git+https://github.com/open-uchile/eol_contact_form@42f36c6c2324d4a61fa4d442fbbc3c2b46b4b124#egg=eol_contact_form
 -e git+https://github.com/open-uchile/eol_vimeo@3a2ba6628cbc96976b9f44c1ff37a75b6dcaf8dc#egg=eol_vimeo
--e git+https://github.com/eol-uchile/eol_completion@30303bc4c2195789093e4b634e8ebe5fa639981a#egg=eol_completion
+-e git+https://github.com/eol-uchile/eol_completion@7dd8b73f5e1f1d4f518a1055ff044bc48ada3a2c#egg=eol_completion
 -e git+https://github.com/eol-uchile/eol_xblock_discussion@51bbea2a892b1f1ec522f6919deea07b766cf6ea#egg=eoldiscussion
 -e git+https://github.com/eol-uchile/eol_welcome_mail@d45ed6908eac47bc615c5206572ecdea4d86adc5#egg=eol_welcome_mail
 -e git+https://github.com/eol-uchile/eol_forum_notifications@6d4ced6cd7b667e6048bf199a22f2c82b801e120#egg=eol_forum_notifications
