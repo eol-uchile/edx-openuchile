@@ -5,8 +5,17 @@ FROM ghcr.io/open-uchile/edx-platform:9c53127fec822ddab991d8780d030ff9b4dfe4ce a
 # repositories to ./requirements on the host and add `-e ./myxblock/` to
 # ./requirements/private.txt.
 COPY ./requirements/ /openedx/requirements
-RUN touch /openedx/requirements/private.txt \
-    && pip install --src ../venv/src -r /openedx/requirements/private.txt
+RUN pip install --src ../venv/src -r /openedx/requirements/python_packages.txt
+
+RUN pip install --src ../venv/src -r /openedx/requirements/apps.txt
+
+RUN pip install --src ../venv/src -r /openedx/requirements/apis.txt
+
+RUN pip install --src ../venv/src -r /openedx/requirements/reports.txt
+
+RUN pip install --src ../venv/src -r /openedx/requirements/xblocks.txt
+
+RUN pip install --src ../venv/src -r /openedx/requirements/tabs_plugins.txt
 
 # Copy themes
 COPY ./themes/ /openedx/themes/
