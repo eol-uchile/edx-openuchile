@@ -44,6 +44,8 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/op
         
             System_Boundary(reports, "reports", $link="https://github.com/open-uchile/edx-openuchile/blob/main/requirements/reports.txt") {
             
+                Container(reports1, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics")
+            
             }
         
             System_Boundary(tabs_plugins, "tabs_plugins", $link="https://github.com/open-uchile/edx-openuchile/blob/main/requirements/tabs_plugins.txt") {
