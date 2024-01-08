@@ -1,4 +1,4 @@
-name: Webhook Update openuchile v2
+name: Webhook Update OpenUchile
 
 on:
   workflow_run:
