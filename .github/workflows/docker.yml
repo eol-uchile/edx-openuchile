@@ -3,8 +3,7 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - staging
-      - trying
+      - main
     paths:
       - 'Dockerfile'
       - 'requirements/*.txt'
@@ -30,8 +29,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
-          username: open-eol
-          password: ${{ secrets.CR_PAT }}
+          username: ${{ github.author }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push
         run: |

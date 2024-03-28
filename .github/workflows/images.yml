@@ -1,0 +1,44 @@
+name: Update Image
+
+on:
+  repository_dispatch:
+    types: [update-image]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull submodules
+        run: git submodule update --init --recursive
+
+      - name: Set current date as env variable
+        run: echo "TS=$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
+
+      - name: Build Open edX
+        run: docker build . --file ./Dockerfile --tag ghcr.io/open-uchile/edx-openuchile:koa --tag ghcr.io/open-uchile/edx-openuchile:koa-${{ env.TS }} --target base
+
+      - name: Build Static files for OpenedX S3
+        run: docker build . --file ./Dockerfile --tag ghcr.io/open-uchile/edx-openuchile:s3-static-koa --tag ghcr.io/open-uchile/edx-openuchile:s3-static-koa-${{ env.TS }} --target base
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push
+        run: |
+          docker push ghcr.io/open-uchile/edx-openuchile:koa
+          docker push ghcr.io/open-uchile/edx-openuchile:koa-${{ env.TS }}
+          docker push ghcr.io/open-uchile/edx-openuchile:s3-static-koa
+          docker push ghcr.io/open-uchile/edx-openuchile:s3-static-koa-${{ env.TS }}
+
+      - name: Trigger argo repository
+        run: |
+         curl --fail-with-body -X POST -H "Authorization: Bearer ${{ secrets.WEBHOOK_SECRET }}" -H "Accept: application/vnd.github+json" -H "Content-Type: application/json" https://api.github.com/repos/open-uchile/argocd-config/dispatches --data '{"event_type": "update-images-v2", "client_payload": {"type": "openuchile"}}'
