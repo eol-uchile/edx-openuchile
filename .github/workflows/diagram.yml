@@ -4,7 +4,7 @@ on:
   workflow_call:
   push:
     branches:
-      - 'main'
+      - 'openuchile-release/**'
     paths:
       - 'Dockerfile'
       - 'requirements/**.txt'
