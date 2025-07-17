@@ -10,27 +10,25 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
         
             System_Boundary(apis, "apis", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/apis.txt") {
             
-                Container(apis1, "portal_api", $link="https://github.com/eol-uchile/portal_api")
+                Container(apis1, "portal_api", $link="https://github.com/eol-uchile/portal_api/releases/tag/0.3")
             
             }
         
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/apps.txt") {
             
-                Container(apps1, "eol_contact_form", $link="https://github.com/open-uchile/eol_contact_form")
+                Container(apps1, "eol_contact_form", $link="https://github.com/open-uchile/eol_contact_form/releases/tag/0.2.2")
             
-                Container(apps2, "course_classification", $link="https://github.com/eol-uchile/course_classification")
+                Container(apps2, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.1.0")
             
-                Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock")
+                Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock/commit/bdd3f406521cb028c142eb29e6c3c9c6433bba49")
             
-                Container(apps4, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring")
+                Container(apps4, "edx-proctoring", $link="https://github.com/open-uchile/edx-proctoring/commit/3815d8852fc7059848444fbe401a5c08f89a9aac")
             
-                Container(apps5, "edx-search", $link="https://github.com/eol-uchile/edx-search")
+                Container(apps5, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login/releases/tag/0.1.1")
             
-                Container(apps6, "eol_sso_login", $link="https://github.com/eol-uchile/eol_sso_login")
+                Container(apps6, "eol_survey", $link="https://github.com/eol-uchile/eol_survey/commit/ab8506723ca972bf9ecb6afd1b4fed3f4cf32501")
             
-                Container(apps7, "eol_survey", $link="https://github.com/eol-uchile/eol_survey")
-            
-                Container(apps8, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo")
+                Container(apps7, "eol_vimeo", $link="https://github.com/eol-uchile/eol_vimeo/commit/cf918de25456ac716a3c596d44bf0a0cf0564d33")
             
             }
         
@@ -38,7 +36,7 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
             
                 Container(python_packages1, "django-redis")
             
-                Container(python_packages2, "edx-username-changer")
+                Container(python_packages2, "edx-username-changer", $link="https://github.com/mitodl/edx-username-changer.git/releases/tag/main")
             
                 Container(python_packages3, "fluent-logger")
             
@@ -48,45 +46,45 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/reports.txt") {
             
-                Container(reports1, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics")
+                Container(reports1, "eol_report_analytics", $link="https://github.com/eol-uchile/eol_report_analytics/commit/feef8ef18e1e1f3959c1a6073ccdb365a7c14466")
             
             }
         
             System_Boundary(tabs_plugins, "tabs_plugins", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/tabs_plugins.txt") {
             
-                Container(tabs_plugins1, "eol_completion", $link="https://github.com/eol-uchile/eol_completion")
+                Container(tabs_plugins1, "eol_completion", $link="https://github.com/eol-uchile/eol_completion/commit/8188c385a678fb94ed2d7f51591a348e51815666")
             
-                Container(tabs_plugins2, "welcome-mail", $link="https://github.com/eol-uchile/eol_welcome_mail")
+                Container(tabs_plugins2, "welcome-mail", $link="https://github.com/eol-uchile/eol_welcome_mail/commit/d45ed6908eac47bc615c5206572ecdea4d86adc5")
             
             }
         
             System_Boundary(xblocks, "xblocks", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/xblocks.txt") {
             
-                Container(xblocks1, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock.git")
+                Container(xblocks1, "eolcontainer-xblock", $link="https://github.com/eol-uchile/eol-container-xblock.git/commit/02f52e4cf50054d8dda7d824a728a45678ea77dd")
             
-                Container(xblocks2, "corfogeneratecode", $link="https://github.com/eol-uchile/corfo_generate_code")
+                Container(xblocks2, "corfogeneratecode", $link="https://github.com/eol-uchile/corfo_generate_code/commit/a6b171148ba7278c05c664f0eb41f52743634bd2")
             
-                Container(xblocks3, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock")
+                Container(xblocks3, "eolcourseprogram-xblock", $link="https://github.com/eol-uchile/eol-course-program-xblock/commit/c412c4ffec907a044a23027bf4336cf3450afc64")
             
-                Container(xblocks4, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion")
+                Container(xblocks4, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/commit/51bbea2a892b1f1ec522f6919deea07b766cf6ea")
             
-                Container(xblocks5, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications")
+                Container(xblocks5, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/commit/6d4ced6cd7b667e6048bf199a22f2c82b801e120")
             
-                Container(xblocks6, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock")
+                Container(xblocks6, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/commit/1b5160b01a081aa68b42f9aed87845fa88b2b8a0")
             
-                Container(xblocks7, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade")
+                Container(xblocks7, "eollistgrade-xblock", $link="https://github.com/eol-uchile/eol_list_grade/commit/0d7688919bad8b229bff2948f31fedd76f1029d2")
             
-                Container(xblocks8, "ora2", $link="https://github.com/eol-uchile/edx-ora2.git")
+                Container(xblocks8, "ora2", $link="https://github.com/eol-uchile/edx-ora2.git/commit/e873498bd2671b830f19a2441ec1608b7d4bbbc4")
             
-                Container(xblocks9, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock")
+                Container(xblocks9, "pdf-xblock", $link="https://github.com/eol-uchile/pdfXBlock/releases/tag/v0.5.1")
             
-                Container(xblocks10, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm")
+                Container(xblocks10, "scormxblock-xblock", $link="https://github.com/eol-uchile/edx_xblock_scorm/commit/c23184c0e22a7847f0b0c917bbe431c2973770fb")
             
-                Container(xblocks11, "edx-sga", $link="https://github.com/eol-uchile/edx-sga")
+                Container(xblocks11, "edx-sga", $link="https://github.com/eol-uchile/edx-sga/commit/12948a546025eddf570eee59820b0356d42f6620")
             
-                Container(xblocks12, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi")
+                Container(xblocks12, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi/commit/ae4bac403c89fd6c6525cedb7171a66e3aefca4c")
             
-                Container(xblocks13, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock")
+                Container(xblocks13, "eolzoom-xblock", $link="https://github.com/eol-uchile/eol-zoom-xblock/commit/52cfe736d9ba951345a9d41fc587ec8fdbdb3b9b")
             
             }
         
