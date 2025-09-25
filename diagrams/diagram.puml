@@ -95,7 +95,7 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
     }
 
     System_Boundary(dockerfile, "edx-platform base", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/Dockerfile") {
-            Container(dk, "ou-koa-20241127193042", $link="https://ghcr.io/eol-uchile/edx-platform:ou-koa-20241127193042")
+            Container(dk, "ou-koa-20250925190037", $link="https://ghcr.io/eol-uchile/edx-platform:ou-koa-20250925190037")
     }
 }
 
