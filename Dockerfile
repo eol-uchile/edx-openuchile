@@ -1,4 +1,4 @@
-FROM ghcr.io/eol-uchile/edx-platform:ou-koa-20241127193042 AS base
+FROM ghcr.io/eol-uchile/edx-platform:ou-koa-20250925190037 AS base
 
 # Install private requirements: this is useful for installing custom xblocks.
 # In particular, to install xblocks from a private repository, clone the
