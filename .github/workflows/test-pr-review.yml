@@ -1,0 +1,36 @@
+name: Test Team Reviewers
+
+on:
+  push:
+    branches: 
+      - 'vastorga/test-pr-team-reviewer'
+
+jobs:
+  test-team-reviewers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create GitHub App Token
+        id: app_token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.EOLITO_BOT_APP_ID }}
+          private-key: ${{ secrets.EOLITO_BOT_PRIVATE_KEY }}
+
+      - uses: actions/checkout@v4
+
+      - name: Make minimal change
+        run: |
+          echo "Test change at $(date)" > test-team-reviewers.txt
+
+      - name: Test PR with team reviewers
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ steps.app_token.outputs.token }}
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          committer: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          commit-message: "test: team reviewers functionality"
+          signoff: true
+          branch: test/team-reviewers-01
+          title: "TEST: Team Reviewers - 01"
+          team-reviewers: devops
