@@ -1,5 +1,5 @@
 -e git+https://github.com/eol-uchile/eol_contact_form@0.2.4+open#egg=eol_contact_form
--e git+https://github.com/eol-uchile/course_classification@1.1.2#egg=course_classification
+-e git+https://github.com/eol-uchile/course_classification@1.2.1#egg=course_classification
 -e git+https://github.com/eol-uchile/eol_duplicate_xblock@bdd3f406521cb028c142eb29e6c3c9c6433bba49#egg=eol_duplicate_xblock
 -e git+https://github.com/openedx/edx-proctoring@2.6.7#egg=edx-proctoring
 -e git+https://github.com/eol-uchile/eol_sso_login@0.1.1#egg=eol_sso_login
