@@ -9,4 +9,3 @@
 -e git+https://github.com/eol-uchile/pdfXBlock@v0.5.1#egg=pdf-xblock
 -e git+https://github.com/eol-uchile/edx_xblock_scorm@c23184c0e22a7847f0b0c917bbe431c2973770fb#egg=scormxblock-xblock
 -e git+https://github.com/eol-uchile/edx-sga@12948a546025eddf570eee59820b0356d42f6620#egg=edx-sga
--e git+https://github.com/eol-uchile/ubcpi@ae4bac403c89fd6c6525cedb7171a66e3aefca4c#egg=ubcpi-xblock
