@@ -82,8 +82,6 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
             
                 Container(xblocks11, "edx-sga", $link="https://github.com/eol-uchile/edx-sga/commit/12948a546025eddf570eee59820b0356d42f6620")
             
-                Container(xblocks12, "ubcpi-xblock", $link="https://github.com/eol-uchile/ubcpi/commit/ae4bac403c89fd6c6525cedb7171a66e3aefca4c")
-            
             }
         
     }
