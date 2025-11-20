@@ -20,7 +20,7 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
             
                 Container(apps2, "course_classification", $link="https://github.com/eol-uchile/course_classification/releases/tag/1.2.1")
             
-                Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock/commit/bdd3f406521cb028c142eb29e6c3c9c6433bba49")
+                Container(apps3, "eol_duplicate_xblock", $link="https://github.com/eol-uchile/eol_duplicate_xblock/releases/tag/1.0.0")
             
                 Container(apps4, "edx-proctoring", $link="https://github.com/openedx/edx-proctoring/releases/tag/2.6.7")
             
