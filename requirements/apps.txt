@@ -5,3 +5,4 @@
 -e git+https://github.com/eol-uchile/eol_sso_login@0.1.1#egg=eol_sso_login
 -e git+https://github.com/eol-uchile/eol_survey@1.0.0#egg=eol_survey
 -e git+https://github.com/eol-uchile/eol_vimeo@1.0.1#egg=eol_vimeo
+-e git+https://github.com/eol-uchile/eol_sso@1.0.1#egg=eol_sso
