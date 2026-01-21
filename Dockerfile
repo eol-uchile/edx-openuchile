@@ -7,7 +7,6 @@ FROM ghcr.io/eol-uchile/edx-platform:ou-koa-20250925190037 AS base
 COPY ./requirements/ /openedx/requirements
 RUN pip install --src ../venv/src -r /openedx/requirements/python_packages.txt
 RUN pip install --src ../venv/src -r /openedx/requirements/apps.txt
-RUN pip install --src ../venv/src -r /openedx/requirements/apis.txt
 RUN pip install --src ../venv/src -r /openedx/requirements/reports.txt
 RUN pip install --src ../venv/src -r /openedx/requirements/xblocks.txt
 RUN pip install --src ../venv/src -r /openedx/requirements/tabs_plugins.txt
