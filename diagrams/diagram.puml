@@ -8,12 +8,6 @@ skinparam svgLinkTarget foo
 System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eol-uchile/edx-openuchile") {
     System_Boundary(c2, "requirements", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/") {
         
-            System_Boundary(apis, "apis", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/apis.txt") {
-            
-                Container(apis1, "portal_api", $link="https://github.com/eol-uchile/portal_api/releases/tag/0.3")
-            
-            }
-        
             System_Boundary(apps, "apps", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/apps.txt") {
             
                 Container(apps1, "eol_contact_form", $link="https://github.com/eol-uchile/eol_contact_form/releases/tag/0.5.3")
