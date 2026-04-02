@@ -64,7 +64,7 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
             
                 Container(xblocks4, "eoldiscussion-xblock", $link="https://github.com/eol-uchile/eol_xblock_discussion/releases/tag/1.1.1")
             
-                Container(xblocks5, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.3")
+                Container(xblocks5, "eol_forum_notifications", $link="https://github.com/eol-uchile/eol_forum_notifications/releases/tag/1.0.4")
             
                 Container(xblocks6, "eolgradediscussion", $link="https://github.com/eol-uchile/eol_gradeforum_xblock/releases/tag/1.0.0")
             
