@@ -38,6 +38,8 @@ System_Boundary(c1, "edx-platform: edx-openuchile", $link="https://github.com/eo
             
                 Container(python_packages4, "python-json-logger")
             
+                Container(python_packages5, "super-csv")
+            
             }
         
             System_Boundary(reports, "reports", $link="https://github.com/eol-uchile/edx-openuchile/blob/openuchile-release/koa/requirements/reports.txt") {
